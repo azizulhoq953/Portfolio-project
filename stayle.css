@@ -7,6 +7,14 @@ body{
 background-color: #f6f5f5;
 margin: 0px;
 padding: 0px;
+position: relative;
+  z-index: 1;
+
+
+/* border: 0px; */
+
+
+
 
 }
 
@@ -31,47 +39,86 @@ section{
 }
 
 nav{
-
-    display:flex;
     justify-content: space-between;
     align-items: center;
     height:60px;
-    background-color:#ffffff ;
+    background-color:#f8d5d5 ;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     padding:0px 5%;
 
 }
 nav a:hover{
-    background-color: #f153b065;
+    background-color: #ec0f0fc0;
 }
 nav ul{
-    display: flex;
+    display:flex;
+    
+    
 }
 
 
 nav ul li a{
-
+    float: right;
     margin:30px;
     font-family: myriad pro regular;
     color: #505050;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 700px;
+    letter-spacing: 1px;
     
-    letter-spacing: 2px;
-  text-align:center;
-
+    
+}
+    
+    nav a:hover{
+        background-color: #ec0f0fc0;
+    }
+    nav ul{
+        display: flex;
+    }
+    
+    
+    nav ul li a{
+        display: inline;
+        margin:30px;
+        font-family: myriad pro regular;
+        color: #505050;
+        font-size: px;
+        font-weight: 800px;
+        letter-spacing: 2px;
+        text-align:center;
+        
+    }
+    
+       
+        nav a:hover{
+            background-color: #ec0f0fc0;
+        }
+        nav ul{
+            display: flex;
+        }
+        
+        
+        nav ul li a{
+            display: inline;
+            margin:30px;
+            font-family: myriad pro regular;
+            color: #505050;
+            font-size: 40px;
+            font-weight: 800px;
+            letter-spacing: 2px;
+            text-align:center;            
 }
 .logo{
 
     font-family: RoadTest;
-    color: #000000;
+    color: #0d1cf0f8;
     font-size: 22px;
 
 }
 .active{
 
     font-weight: bold;
-    color: #2d2a2a;
+    color: #26272e;
 
 
 }
@@ -212,7 +259,7 @@ transform: scale(1.1)
     outline: none;
     border:none;
     font-family: calibri;
-    background-color: ;#262525,
+    background-color: #262525,
 }
 .services{
     height:400px;
@@ -413,7 +460,7 @@ footer p:nth-child(2){
 .social-icon a:hover,
 .a-social-b a:hover{
     background-color: aqua;
-    box-shadow:2px 2px 12px rgba(0,0,0,0.2)) ;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2) ;
     transition: all ease 0.5s;
 
 }
